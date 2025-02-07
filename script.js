@@ -1,3 +1,8 @@
+window.onload = function () {
+    alert("JS and CSS are loaded!");
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const changeColorBtn = document.getElementById('changeColorBtn');
     const body = document.body;
